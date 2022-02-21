@@ -1,0 +1,35 @@
+.peach {
+    color: #D29395;
+}
+
+h1 {
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 50%;
+}
+
+.black {
+    color: #000000
+}
+
+body {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+img {
+    width: 50%
+}
+
+.blue {
+    color: #86BEBE;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Roboto Serif';
+    font-weight: bold;
+}
