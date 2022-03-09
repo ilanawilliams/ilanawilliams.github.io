@@ -1,0 +1,40 @@
+/*
+Oswald: 300 and 400 font-family: 'Oswald', sans-serif;
+sans source pro: 600 font-family: 'Source Sans Pro', sans-serif; */
+
+/* homepage */
+.header {
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+    background-color: #f4eee8;
+    color: #8FBC94;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #6DA34D;
+    line-height: .5;
+}
+
+a:hover {
+    color: #548687;
+}
+
+h1 {
+    color: #6DA34D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
