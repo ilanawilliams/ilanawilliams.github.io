@@ -15,29 +15,33 @@ header h1 {
 
 body {
     background-color: #f4eee8;
-    color: #8FBC94;
+    color: #6DA34D;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
 }
 
 a {
     text-decoration: none;
-    color: #6DA34D;
+    color: #548687;
     line-height: 0;
 }
 
+.a {
+    color: #6DA34D;
+}
+
 a:hover {
-    color: #548687;
+    color: #8fbc94;
 }
 
 h1 {
-    color: #6DA34D;
+    color: #548687;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
 
 h3 {
-    color: #6DA34D;
+    color: #548687;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     text-align: center;
@@ -54,7 +58,7 @@ img {
 
 @media (max-width:768px) {
     img {
-        width: 50%;
+        width: 40%;
         margin-left: 25%;
     }
 }
