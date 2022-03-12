@@ -48,6 +48,19 @@ h3 {
 
 }
 
+.table-borderless {
+    text-align: center;
+    color: #6da34d;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+h5 {
+    color: #548687;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
 img {
     border-radius: 50%;
 }
