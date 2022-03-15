@@ -2,7 +2,6 @@
 Oswald: 300 and 400 font-family: 'Oswald', sans-serif;
 sans source pro: 600 font-family: 'Source Sans Pro', sans-serif; */
 
-/* homepage */
 .nav a {
     padding: 10px;
     font-family: 'Oswald', sans-serif;
@@ -34,7 +33,7 @@ a:hover {
     color: #8fbc94;
 }
 
-h1 {
+h1 h2 {
     color: #548687;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
@@ -65,13 +64,38 @@ img {
     border-radius: 50%;
 }
 
+.card{
+    margin: 20px 0;
+    
+}
+
 .hed {
     margin-bottom: 10%;
 }
 
+/*
 @media (max-width:768px) {
     img {
         width: 40%;
         margin-left: 25%;
     }
+}
+*/
+
+.card a {
+    bottom: 0;
+    position: absolute;
+    padding: 30px 0;
+}
+
+.card-text {
+    padding: 0 0 20px 0;
+}
+
+.clips .col-sm-4 {
+    margin: 0 0 40px 0;
+}
+
+.card {
+    min-height: 100%;
 }
