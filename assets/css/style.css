@@ -1,7 +1,3 @@
-/*
-Oswald: 300 and 400 font-family: 'Oswald', sans-serif;
-sans source pro: 600 font-family: 'Source Sans Pro', sans-serif; */
-
 .nav a {
     padding: 10px;
     font-family: 'Oswald', sans-serif;
@@ -72,15 +68,6 @@ img {
 .hed {
     margin-bottom: 10%;
 }
-
-/*
-@media (max-width:768px) {
-    img {
-        width: 40%;
-        margin-left: 25%;
-    }
-}
-*/
 
 .card a {
     bottom: 0;
