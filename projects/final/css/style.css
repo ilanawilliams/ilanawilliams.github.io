@@ -9,6 +9,7 @@ colors
 
 h1 {
     font-weight: 700; 
+    padding: 10% 0 0 0; 
 }
 
 h1, 
@@ -21,14 +22,14 @@ body {
     color: #a98467; 
 }
 
-.figure {
+figure {
     font-size: 0.8em;
-    display: flex;
-    justify-items: flex-end;
 }
 
 .graphic {
-    padding: 3%;
+    padding: 4% 0;
+    width: 85%;
+    margin: 0 auto;
 }
 
 a {
@@ -39,4 +40,22 @@ a {
 
 a:hover {
     color: #436a36; 
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.double-img {
+    margin: 0 0 3% 0;
+}
+
+@media (max-width:450px){
+    main, .graphic {
+        width: 100%
+    }
+    .hide {
+        display:none;
+    }
 }
