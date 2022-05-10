@@ -7,9 +7,25 @@ colors
 #436a36 (green) 
 #606c38 (army green) */
 
+nav {
+    margin: 2% 0;
+}
+
+.nav-link {
+    font-family:'Cambay', sans-serif;
+    font-weight: 400;
+    color: #436a36; 
+    padding: 10px;
+}
+
+.nav-link:hover, 
+a:hover {
+    color: #606c38; 
+}
+
 h1 {
     font-weight: 700; 
-    padding: 10% 0 0 0; 
+    padding: 5% 0 0 0; 
 }
 
 h1, 
@@ -22,7 +38,8 @@ body {
     color: #a98467; 
 }
 
-figure {
+figure, 
+footer {
     font-size: 0.8em;
 }
 
@@ -38,10 +55,6 @@ a {
     line-height: 0; 
 }
 
-a:hover {
-    color: #436a36; 
-}
-
 main {
     width: 80%;
     margin: 0 auto;
@@ -54,8 +67,5 @@ main {
 @media (max-width:450px){
     main, .graphic {
         width: 100%
-    }
-    .hide {
-        display:none;
     }
 }

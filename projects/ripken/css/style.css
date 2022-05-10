@@ -6,9 +6,18 @@ body {
     padding: 0 5% 0 5%;
 }
 
+video {
+    width: 100%;
+}
+
 header {
+height: 100vh;
     padding: 2% 1% 2% 1%;
     text-transform: uppercase;
+}
+
+.over {
+    display: inline;
 }
 
 h1 {
@@ -33,7 +42,8 @@ h3 {
     font-size: 1.1em;
 }
 
-header, 
+header,
+.over 
 .blockquote {
     background-color: #df4601;
 }
@@ -140,7 +150,7 @@ a,
     }
     }
 
-@media(min-width: 450px) {
+@media(max-width: 450px) {
     body{
         font-size: 14px;
     }
