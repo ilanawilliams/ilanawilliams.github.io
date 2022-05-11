@@ -1,12 +1,3 @@
-/*fonts 
-font-family: 'Cambay', sans-serif; 400 700
-font-family: 'Saira Condensed', sans-serif; 300 500
-
-colors
-#a98467 (brown) 
-#436a36 (green) 
-#606c38 (army green) */
-
 nav {
     margin: 2% 0;
 }
@@ -64,8 +55,14 @@ main {
     margin: 0 0 3% 0;
 }
 
-@media (max-width:450px){
-    main, .graphic {
-        width: 100%
+@media(max-width:450px){
+    main, .graphic{
+        width:100%;
+    }
+    nav{
+        margin: 5% 0;
+    }
+    .hide{
+        display:none;
     }
 }
