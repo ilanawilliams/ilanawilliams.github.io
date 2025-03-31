@@ -70,7 +70,7 @@ img {
 }
 
 .card a {
-    bottom: 15;
+    bottom: 0;
     position: absolute;
     padding: 30px 0;
 }
